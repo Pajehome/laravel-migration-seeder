@@ -21,7 +21,6 @@ class PacketTableSeeder extends Seeder
             $newPacket->price = $faker->randomFloat(1, 50, 9999);
             $newPacket->image = $faker->imageUrl(640, 480, 'beautiful destination', true);
             $newPacket->save();
-        }
-        
+        }  
     }
 }

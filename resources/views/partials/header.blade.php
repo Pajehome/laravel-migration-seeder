@@ -1,3 +1,3 @@
 <header>
-    <h1>Titolo</h1>
+    <h1>{{$packet->name}}</h1>
 </header>
