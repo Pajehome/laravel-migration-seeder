@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layout.baseDue')
 @section('content')
  <h2>{{$packet->title}}</h2>
  <p>{{$packet->description}}</p>
